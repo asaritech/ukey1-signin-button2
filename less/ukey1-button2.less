@@ -1,0 +1,82 @@
+@import "variables.less";
+@import "mixins.less";
+
+.ukey1-button2 {
+    display: inline-block;
+	background: @button-background;
+	font-size: 14px;
+	color: @button-frontcolor;
+	padding: 10px;
+	.button-radius;
+	font-family: inherit;
+	text-decoration: none;
+    text-align: center;
+	.button-shadow(@shadow);
+	.button-transition;
+	&:hover,
+    &:focus {
+        .button-shadow(@shadow-hover);
+        color: @button-frontcolor;
+        text-decoration: none;
+    }
+    
+    span {
+        display: inline-block;
+    }
+    
+    .uk1-b2-text {
+        padding-bottom: 6px
+    }
+    
+    .uk1-b2-icons {
+        font-size: 0;
+        display: block;
+        
+        span {
+            .icon;
+            .button-radius;
+            .icon-shadow(@shadow);
+
+            &:first-child {
+                margin-left: 0;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        
+        .uk1 {
+            background-image: @ukey1;
+            background-color: @ukey1-color;
+        }
+        .ggl {
+            background-image: @google;
+            background-color: @google-color;
+        }
+        .fcb {
+            background-image: @facebook;
+            background-color: @facebook-color;
+        }
+        .lin {
+            background-image: @linkedin;
+            background-color: @linkedin-color;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .ukey1-button2.x2 {
+        padding: 15px;
+        
+        .uk1-b2-text {
+            font-size: 16px;
+            padding-bottom: 12px
+        }
+        
+        .uk1-b2-icons {
+            span {
+                .icon-bigger;
+            }
+        }
+    }
+}
