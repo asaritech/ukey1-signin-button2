@@ -11,13 +11,13 @@ If you want to use our unified Ukey1 sign-in button on your website, it's very s
 First, link our stylesheets in your html code (i.e. add the following line between `<header></header>` elements):
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://gitcdn.xyz/repo/asaritech/ukey1-signin-button2/master/css/ukey1-button2.min.css" media="screen">
+<link rel="stylesheet" type="text/css" href="https://code.ukey1cdn.com/ukey1-signin-button2/master/css/ukey1-button2.min.css" media="screen">
 ```
 
 Then, add our javascript to the end of your html code (i.e. append the following line to `<body></body>` elements):
 
 ```html
-<script src="https://gitcdn.xyz/repo/asaritech/ukey1-signin-button2/master/js/ukey1-button2.min.js"></script>
+<script src="https://code.ukey1cdn.com/ukey1-signin-button2/master/js/ukey1-button2.min.js"></script>
 ```
 
 And finally, you can simply add class `ukey1-button2` or `ukey1-button2 x2` to the clickable element you use. For example:
@@ -26,13 +26,6 @@ And finally, you can simply add class `ukey1-button2` or `ukey1-button2 x2` to t
 <a href="#" class="ukey1-button2">Sign in with your favourite method</a>
 <a href="#" class="ukey1-button2 x2">Sign in (bigger icons)</a>
 ```
-
-## CDN
-
-We use [GitCDN](https://gitcdn.xyz/). 
-You may also download [css/ukey1-button2.min.css](https://raw.githubusercontent.com/asaritech/ukey1-signin-button2/master/css/ukey1-button2.min.css) 
-and [js/ukey1-button2.min.js](https://raw.githubusercontent.com/asaritech/ukey1-signin-button2/master/js/ukey1-button2.min.js) and use these files 
-directly from your web server.
 
 ## License
 
